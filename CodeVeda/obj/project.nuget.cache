@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "tMHBegqyGiQ4Yz8xoA9PbBeTOuD6Tcm6eVhGO7piWmI+vAu0lXxiVJWQwnMgNHxPGeH4j/nSnojFkqqafR3kyg==",
+  "success": true,
+  "projectFilePath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda/CodeVeda.csproj",
+  "expectedPackageFiles": [
+    "/Users/architsajjan/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/5.0.0/microsoft.aspnetcore.spaservices.extensions.5.0.0.nupkg.sha512",
+    "/Users/architsajjan/.nuget/packages/microsoft.extensions.fileproviders.abstractions/5.0.0/microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "/Users/architsajjan/.nuget/packages/microsoft.extensions.fileproviders.physical/5.0.0/microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "/Users/architsajjan/.nuget/packages/microsoft.extensions.filesystemglobbing/5.0.0/microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "/Users/architsajjan/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

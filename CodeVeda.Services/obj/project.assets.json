@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CodeVeda.BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CodeVeda.BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeVeda.BusinessObjects.dll": {}
+        }
+      },
+      "CodeVeda.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CodeVeda.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CodeVeda.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeVeda.Interfaces.dll": {}
+        }
+      },
+      "CodeVeda.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CodeVeda.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeVeda.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeVeda.BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../CodeVeda.BusinessObjects/CodeVeda.BusinessObjects.csproj",
+      "msbuildProject": "../CodeVeda.BusinessObjects/CodeVeda.BusinessObjects.csproj"
+    },
+    "CodeVeda.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../CodeVeda.Interfaces/CodeVeda.Interfaces.csproj",
+      "msbuildProject": "../CodeVeda.Interfaces/CodeVeda.Interfaces.csproj"
+    },
+    "CodeVeda.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../CodeVeda.Utilities/CodeVeda.Utilities.csproj",
+      "msbuildProject": "../CodeVeda.Utilities/CodeVeda.Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CodeVeda.BusinessObjects >= 1.0.0",
+      "CodeVeda.Interfaces >= 1.0.0",
+      "CodeVeda.Utilities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/architsajjan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Services/CodeVeda.Services.csproj",
+      "projectName": "CodeVeda.Services",
+      "projectPath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Services/CodeVeda.Services.csproj",
+      "packagesPath": "/Users/architsajjan/.nuget/packages/",
+      "outputPath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Services/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/architsajjan/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.BusinessObjects/CodeVeda.BusinessObjects.csproj": {
+              "projectPath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.BusinessObjects/CodeVeda.BusinessObjects.csproj"
+            },
+            "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Interfaces/CodeVeda.Interfaces.csproj": {
+              "projectPath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Interfaces/CodeVeda.Interfaces.csproj"
+            },
+            "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Utilities/CodeVeda.Utilities.csproj": {
+              "projectPath": "/Users/architsajjan/Documents/Personal Projects/CodeVeda/CodeVeda.Utilities/CodeVeda.Utilities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeVeda.BusinessObjects\CodeVeda.BusinessObjects.csproj" />
+    <ProjectReference Include="..\CodeVeda.Interfaces\CodeVeda.Interfaces.csproj" />
+    <ProjectReference Include="..\CodeVeda.Utilities\CodeVeda.Utilities.csproj" />
+  </ItemGroup>
+</Project>
